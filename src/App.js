@@ -7,6 +7,7 @@ import Home from './component/Home'
 import About from './component/About'
 import Pnf from'./component/Pnf'
 import "./App.css"
+import Tracks from './component/Tracks';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       {/* router provider*/}
         <Route path={`/`} element={<Home/>}/>
         <Route path={`/about`} element={<About/>}/>
+        <Route path={`/tracks/:aID`} element={<Tracks/>}/>
         <Route path={`/*`} element={<Pnf/>}/>
     </Routes>
 
