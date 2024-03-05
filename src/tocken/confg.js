@@ -1,6 +1,6 @@
 const config = {
     access_tocken:
-    "BQDtXjGQmc9rmdmgmda2JHE7zAF0QUVcKUNmDFJsaRviXHntiie4WEaOMghr6OrmAdYRyG17Ewzv8YiStdRbjOb8AfwnBH8mzJijTc_aHXUDQTzEDLX9viuK7Xn8BDTC3irNEnpm-JME62aJHJbsAkXF7YHi68vekpxfVOtP5I8QQb1E7HV3na9F5IFKCdCyJvrsp7GjSX5uDQUFWBe4UdwqBtIo",
+    "BQATVo2NxJ-LFsyLh1MUsN7Q9JelUSplfkHzIzPqzfAOL4hN8XXh-hZdMEAum0EQq3Le-3NT9iYZcvzDyUhqdoradnAeSflAwUfNTLTRvFTvNk0zMls9gMy6GarHE4I-Vxqy8vPdyXqwtQIwX31A9Puu3S3XpS_TqKxI0uqkPgDmebZKDsSLHAX0GeoARkWmWYwNQcmN61K84U7070YJr7vpGpWc",
     access_type: "Bearer",
     access_url: "https://api.spotify.com"
 
