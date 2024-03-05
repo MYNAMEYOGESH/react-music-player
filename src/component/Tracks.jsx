@@ -40,50 +40,52 @@ function Tracks() {
     }
     return(
        <div className="container mt-5" id="track">
-        <div className="row">
-            <div className="col-md-12 text-center">
-                <h3 className="display-4 text-success">Music Tracks</h3>
-                <p className="text-seccess">{ params.aID} </p>
+            <div className="row">
+                <div className="col-md-12 text-center">
+                    <h3 className="display-4 text-success">Music Tracks</h3>
+                    <p className="text-seccess">{ params.aID} </p>
+                </div>
             </div>
-        </div>
 
-        <div className="row">
-            {
-                music?.map((item,index) => {
-                    const {name,album, preview_url} = item
-                    return (
-                        <div className="col-md-4 col-lg-3 col-sm-6 col-sm-6 mt-2 md-2" key={index}>
-                            <div className="card music-card" onClick={() => trackClick(item) }>
-                                <img src={album ? album.images[0].url : ''} alt="" className="card-img-top" />
-                                <div className="card-hover">
-                                    <h6 className=" text-center">{name}</h6>
+            <div className="row">
+                {
+                    music?.map((item,index) => {
+                        const {name,album, preview_url} = item
+                        return (
+                            <div className="col-md-4 col-lg-3 col-sm-6 col-sm-6 mt-2 md-2" key={index}>
+                                <div className="card music-card" onClick={() => trackClick(item) }>
+                                    <img src={album ? album.images[0].url : ''} alt="" className="card-img-top" />
+                                    <div className="card-hover">
+                                        <h6 className=" text-center">{name}</h6>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    )
-                })
-            }
-        </div>
+                        )
+                    })
+                }
+            </div>
 
-        <div className="row">
-          
-               {
-                    view ? <div id="player " >   
-                              <button className="btn-close text-danger justify-content-end" onClick={() => close()}></button>
-                             
-                           
-                                
-                                        <div className="img">
-                                            <img src={track?.album.images[0].url} alt=""/>
-                                            <h5 className="text-center text-success"> { track?.name} </h5>
+            <div className="row ">
+            
+                {
+                        view ? <div   id="player" >   
+                                    <button className="btn-close  " onClick={() => close()}></button>
+                                       <div className="row">
+                                       <div className="card-right col-lg-6 col-md-6 col-sm-6">
+                                           <div className="img">
+                                                            <img src={track?.album.images[0].url} alt="" className="trackImg"/>    
+                                            </div>
+                                        </div>
+                                        <div className="card-left col-lg-6 col-md-6 col-sm-6">
+                                            <h5> { track?.name} </h5>
                                             <audio src={track?.preview_url} controls></audio>
-                                  
-                                         </div>
-                       
-                            </div>: null
-               } 
-           
-        </div>
+                                        </div>
+                                       </div>
+                                       
+                                </div>: null
+                } 
+            
+            </div>
        </div>
     )
 }
