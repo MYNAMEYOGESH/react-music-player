@@ -1,9 +1,1 @@
-const config = {
-    access_tocken:
-    "BQBwtd7OUcfPIe02U6nMntOtzrLUuDF3MHNIimuziBQKcY1_hmY8I2OtRJqoU4OUqG6ZdNWMQ50dP2RJi8Ax2ycB3phMrU55FuronhgRbkPQ6P2JrTBe58vNbTgBh6dqymbhC55eN4K3KSSXQG6No1QANu6-5TAlINhXzspYFkHQt64YeqDP0xN9Alpoz7twkzbnpgs1ISqutNQdjOTWkq9RXr1b",
-    access_type: "Bearer",
-    access_url: "https://api.spotify.com"
-
-}
-
-export default config 
+BQB955ZD2fc9ORpuCw7soC5FVguief5bGOlxdbg4HGOcxgdfaZkWc89mOwMRblAvXGwcDMAczYPdI_J8Rq12FJk1leU0V94dCfA_mh8QEmRCGME2vpAED4BRkbskCygezwgFbpX7VyM0wQeNmjRl7n-IfQsM4HDIKlDlWSKWvk7ry8SWpaPF8r1up0lmD5wi-535jC0eirpHKOONfZiZ_ExGBkhOYfaoVA

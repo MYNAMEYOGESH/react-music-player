@@ -113,7 +113,7 @@
 
 #track #player {
   position: fixed;
-  background-color: #222222e2;
+  background-color: #6a3c85be;
   font-size: 2rem;
   text-align: center;
   top: 70%;
@@ -134,7 +134,7 @@
 }
 
 #player .close-btn {
-  float: left;
+  float: right;
 }
 #player .card-right{
   width: 150px;
